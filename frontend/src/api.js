@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL,
   timeout: 120000,
 });
 
@@ -11,9 +11,14 @@ export const sendChatMessage = (question, sessionId) =>
   api.post('/chat', { question, session_id: sessionId });
 
 export const getHistory = (sessionId) =>
-  api.get('/history', { params: sessionId ? { session_id: sessionId } : {} });
+  api.get('/history', {
+    params: sessionId ? { session_id: sessionId } : {},
+  });
 
 export const exportResults = (sql) =>
-  api.get('/export', { params: { sql }, responseType: 'blob' });
+  api.get('/export', {
+    params: { sql },
+    responseType: 'blob',
+  });
 
 export default api;
