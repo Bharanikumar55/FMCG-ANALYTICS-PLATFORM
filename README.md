@@ -151,6 +151,11 @@ Interactive docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 See [docs/deployment.md](docs/deployment.md) for production deployment with Docker, Nginx, and environment configuration.
 
+## Vercel Link
+https://fmcg-frontend-n79tq8dth-bharanikumar55s-projects.vercel.app/
+
+Here, you can check the working of the site.
+
 ## Project Structure
 
 ```
