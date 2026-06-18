@@ -151,10 +151,16 @@ Interactive docs: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 See [docs/deployment.md](docs/deployment.md) for production deployment with Docker, Nginx, and environment configuration.
 
-## Vercel Link
-https://fmcg-frontend-n79tq8dth-bharanikumar55s-projects.vercel.app/
+## Live Demo
 
-Here, you can check the working of the site.
+Frontend:
+https://your-vercel-url.vercel.app
+
+Backend API:
+https://fmcg-analytics-platform.onrender.com
+
+API Documentation:
+https://fmcg-analytics-platform.onrender.com/docs
 
 ## Project Structure
 
